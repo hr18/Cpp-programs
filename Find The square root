@@ -1,0 +1,22 @@
+​// C++ Program that find the square root of any number, and print it. 
+
+#include<iostream>
+#include<math.h> 
+//We should include <math.h> because we will use sqrt function 
+ 
+using namespace std;
+ 
+int main()
+{
+// declaration of two float variables 
+float sq,n;
+cout<<" Enter any number: ";
+
+// Take the number from User
+cin>>n;
+
+// sqrt function will find the square root and assign it to sq variable 
+sq=sqrt(n);
+cout<<"Square root of "<<n<<" is "<<sq;
+return 0;
+}
